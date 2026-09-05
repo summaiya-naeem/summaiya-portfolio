@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Summaiya Naeem - Frontend Developer & VA</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+* {margin:0; padding:0; box-sizing:border-box; scroll-behavior:smooth;}
+body{ font-family: 'Inter', sans-serif; background: #0A0A0A; background-image: radial-gradient(circle at 20% 50%, rgba(255,215,0,0.1) 0%, transparent 50%); color:#E5E5E5; overflow-x:hidden; }
+.container{ max-width:1100px; margin:0 auto; padding:20px; }
+.glass{ background: rgba(20, 20, 20, 0.6); backdrop-filter: blur(20px); border: 1px solid rgba(255,215,0,0.2); border-radius:25px; padding:40px; margin:30px 0; box-shadow:0 0 40px rgba(255,215,0,0.1); animation: fadeInUp 1s ease; }
+@keyframes fadeInUp { from {opacity:0; transform: translateY(50px);} to {opacity:1; transform: translateY(0);} }
+h1{ font-family: 'Orbitron', sans-serif; color:#FFD700; font-size: clamp(32px, 5vw, 56px); font-weight:900; text-shadow: 0 0 20px rgba(255,215,0,0.5); margin-bottom:10px; }
+h2{ font-family: 'Orbitron', sans-serif; color:#FFD700; font-size: clamp(24px, 3vw, 36px); margin-top:40px; margin-bottom:20px; border-bottom:2px solid #FFD700; padding-bottom:10px; }
+.hero { display:flex; align-items:center; gap:40px; flex-wrap:wrap; text-align:left; }
+.profile-pic { width:200px; height:200px; border-radius:50%; border:3px solid #FFD700; object-fit:cover; animation: glow 2s ease-in-out infinite alternate; box-shadow:0 0 30px rgba(255,215,0,0.6); }
+@keyframes glow { from {box-shadow:0 0 20px rgba(255,215,0,0.4);} to {box-shadow:0 0 40px rgba(255,215,0,0.8);} }
+.btn{ background: linear-gradient(90deg, #FFD700 0%, #FFA500 100%); color:#0A0A0A; padding:16px 40px; text-decoration:none; border-radius:50px; display:inline-block; margin-top:20px; font-weight:800; font-size:16px; transition: all 0.3s ease; box-shadow:0 0 20px rgba(255,215,0,0.4); }
+.btn:hover{ transform: scale(1.1); box-shadow:0 0 40px rgba(255,215,0,0.8); }
+.skill{ display:inline-block; background: rgba(255,215,0,0.1); color:#FFD700; padding:12px 22px; margin:10px; border-radius:15px; font-weight:600; border:1px solid rgba(255,215,0,0.3); transition: all 0.3s ease; }
+.skill:hover { background: #FFD700; color:#0A0A0A; transform: translateY(-5px); box-shadow:0 10px 20px rgba(255,215,0,0.3); }
+.card{ background: rgba(30, 30, 30, 0.8); padding:30px; border-radius:20px; margin:20px 0; border:1px solid rgba(255,215,0,0.2); transition: all 0.4s ease; }
+.card:hover { transform: translateY(-10px); border-color:#FFD700; box-shadow:0 20px 50px rgba(255,215,0,0.2); }
+.grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:25px; }
+@media (max-width: 768px) { .glass {padding:25px 20px;} .hero {text-align:center; justify-content:center; gap: 25px;} .profile-pic {width:150px; height:150px;} h1 {font-size:32px;} h2 {font-size:24px;} }
+
+.btn-whatsapp {
+  
+  text-align: center;
+  display: inline-block;
+  padding: 12px 28px;
+  border: 2px solid #FFD700;
+  color: #FFD700;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: 0.3s;
+  margin-top: 20px;
+}
+
+.btn-whatsapp:hover {
+  background: #FFD700;
+  color: #111;
+}
+
+.btn-whatsapp i {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="glass hero">
+    <img src="my-pic.png" alt="Summaiya Naeem" class="profile-pic">
+    <div>
+      <h1>SUMMAIYA NAEEM</h1>
+      <p style="font-size:18px; color:#FFD700; margin:10px 0;"><b>Frontend Web Developer & Virtual Assistant</b></p>
+      <p>I build responsive websites and help businesses grow by managing emails, data entry, and daily admin tasks. Based in Peshawar, Pakistan. Available for remote work.</p>
+      <a href="https://wa.me/03358090129" target="_blank" class="btn-whatsapp">
+        <i class="fab fa-whatsapp"></i>Available for Work
+      </a>
+    </div>
+  </div>
+
+  <div class="glass" style="text-align: left;">
+  <h2 style="color:#FFD700;">Hi There! I'm Summaiya Naeem</h2>
+  <h3 style="color:#FFD700; font-weight:500; margin-bottom:20px;">Frontend Developer | Virtual Assistant | Admin Support</h3>
+  
+  <p style="color:#ccc; line-height:1.8; font-size:16px; margin-bottom:20px;">
+    I am a passionate Frontend Developer focused on building modern, responsive, 
+    and user-friendly websites using HTML5 and CSS3. Along with web development, 
+    I also provide Virtual Assistant and Administrative Support services.
+  </p>
+
+  <p style="color:#ccc; line-height:1.8; font-size:16px;">
+    I enjoy turning ideas into real-world web applications with clean UI and 
+    smooth user experience. I help businesses with data entry, email management, 
+    research, and organizing daily operations to keep things running smoothly.
+  </p>
+
+  <!-- CV Download Button -->
+<div style="text-align: center; margin-top: 30px;">
+  <a href="Summaiya_Naeem_CV-v2.pdf" download class="btn" style="background: linear-gradient(90deg, #FFA500 0%, #FFD700 100%); color: #000; font-weight: 600;">
+    <i class="fas fa-download"></i> Download CV
+  </a>
+</div>
+</div>
+
+
+
+  <div class="glass">
+    <h2>Technical Skills</h2>
+    <div class="grid">
+      <span class="skill">HTML5</span><span class="skill">CSS3</span><span class="skill">JavaScript</span>
+      <span class="skill">Responsive Design</span><span class="skill">WordPress</span><span class="skill">Elementor</span><span class="skill">Git & GitHub</span>
+    </div>
+  </div>
+
+  <div class="glass">
+    <h2>VA & Admin Skills</h2>
+    <div class="grid">
+      <span class="skill">Data Entry</span><span class="skill">Google Sheets</span><span class="skill">Email Management</span>
+      <span class="skill">Canva</span><span class="skill">Research</span><span class="skill">Customer Support</span>
+      <span class="skill">Lead Generation</span><span class="skill">Market Research</span>
+    </div>
+  </div>
+
+  <div class="glass">
+  <h2>Featured Projects</h2>
+  
+  <div class="card">
+    <b style="color:#FFD700; font-size:20px;">Taste in Orbit Restaurant Website</b>
+    <p>Designed a responsive restaurant landing page with menu and contact section. Built with HTML5 & CSS3. Focused on fast loading and clean design.</p>
+    <a href="https://summaiya-naeem.github.io/taste-in-orbit/" target="_blank" class="btn" style="padding:12px 25px; font-size:14px; margin-top:15px;">VIEW PROJECT</a>
+  </div>
+
+  <div class="card">
+    <b style="color:#FFD700; font-size:20px;">SKYLINE Dubai - Property Listing Website</b>
+    <p>Built a premium property listing website for real estate business. Built with HTML5 & CSS3, Mobile Responsive Website.</p>
+    <a href="https://summaiya-naeem.github.io/skyline-dubai/" target="_blank" class="btn" style="padding:12px 25px; font-size:14px; margin-top:15px;">VIEW PROJECT</a>
+  </div>
+</div>
+  
+  <div class="glass">
+    <h2>Education</h2>
+    <div class="card">
+      <b>Shaheed Benazir Bhutto Women University</b><br>
+      Bachelor of Science (BS), Computer Science<br>
+      2025 - 2029 (Expected)
+    </div>
+  </div>
+
+  <div class="glass">
+  <h2>Contact Me</h2>
+  
+  <div class="grid">
+    <!-- Email Card -->
+    <div class="card" style="text-align:center;">
+      <div style="font-size:40px; margin-bottom:10px;">📧</div>
+      <b style="color:#FFD700; font-size:18px;">Email</b>
+      <p style="margin:10px 0;">sumiikhan795@gmail.com</p>
+      <a href="mailto:sumiikhan795@gmail.com" class="btn" style="padding:12px 25px; font-size:14px;">SEND EMAIL</a>
+    </div>
+
+    <!-- Location Card -->
+    <div class="card" style="text-align:center;">
+      <div style="font-size:40px; margin-bottom:10px;">📍</div>
+      <b style="color:#FFD700; font-size:18px;">Location</b>
+      <p style="margin:10px 0;">Peshawar, Pakistan</p>
+      <p style="font-size:14px; color:#aaa;">Available for Remote Work</p>
+    </div>
+
+    <!-- Social Card -->
+    <div class="card" style="text-align:center;">
+      <div style="font-size:40px; margin-bottom:10px;">💼</div>
+      <b style="color:#FFD700; font-size:18px;">Social</b>
+      <p style="margin:10px 0;">Connect with me</p>
+      <a href="https://github.com/summaiya-naeem" target="_blank" class="btn" style="padding:12px 25px; font-size:14px; background: linear-gradient(90deg, #333 0%, #555 100%); color:#FFD700;">GITHUB</a>
+    </div>
+  </div>
+
+  <!-- Bottom Big Button -->
+  <div style="text-align:center; margin-top:30px;">
+    <a href="mailto:sumiikhan795@gmail.com?subject=Hiring%20Inquiry%20from%20Portfolio" class="btn">LET'S WORK TOGETHER</a>
+  </div>
+</div>
+</body>
+</html>
